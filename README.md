@@ -8,3 +8,4 @@ React Hooks are functions that let you "hook into" React state and lifecycle fea
 - UseState Hook ✅
 - UseEffect Hook ✅
 - UseContext Hook ✅
+- UseReducer Hook ✅
