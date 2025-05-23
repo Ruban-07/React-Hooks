@@ -1,4 +1,4 @@
-![React Hook](image-1.png)
+![React Hook Image](src\assets\image.png)
 
 # React Hooks
 
