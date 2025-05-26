@@ -6,6 +6,7 @@ import ReducerExample from "./hooks/use_reducer";
 import RefExample from "./hooks/use_ref";
 import ImperativeHandleExample from "./hooks/use_imperative_handle";
 import LayoutEffectExample from "./hooks/use_layout_effect";
+import InsertionEffectExample from "./hooks/use_insertion_effect";
 
 const App = () => {
   return (
@@ -44,6 +45,11 @@ const App = () => {
         <strong>UseLayoutEffect</strong>
       </mark>
       <LayoutEffectExample />
+      <hr />
+      <mark>
+        <strong>UseInsertionEffect</strong>
+      </mark>
+      <InsertionEffectExample />
       <hr />
     </div>
   );
