@@ -8,11 +8,12 @@ import ImperativeHandleExample from "./hooks/use_imperative_handle";
 import LayoutEffectExample from "./hooks/use_layout_effect";
 import InsertionEffectExample from "./hooks/use_insertion_effect";
 import UseIdExample from "./hooks/use_id";
+import TransitionExample from "./hooks/use_transition";
 
 const App = () => {
   return (
     <div>
-      <mark>
+      {/* <mark>
         <strong>UseState</strong>
       </mark>
       <StateExample />
@@ -56,6 +57,11 @@ const App = () => {
         <strong>UseId</strong>
       </mark>
       <UseIdExample />
+      <hr /> */}
+      <mark>
+        <strong>UseTransition</strong>
+      </mark>
+      <TransitionExample />
       <hr />
     </div>
   );
