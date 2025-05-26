@@ -7,6 +7,7 @@ import RefExample from "./hooks/use_ref";
 import ImperativeHandleExample from "./hooks/use_imperative_handle";
 import LayoutEffectExample from "./hooks/use_layout_effect";
 import InsertionEffectExample from "./hooks/use_insertion_effect";
+import UseIdExample from "./hooks/use_id";
 
 const App = () => {
   return (
@@ -50,6 +51,11 @@ const App = () => {
         <strong>UseInsertionEffect</strong>
       </mark>
       <InsertionEffectExample />
+      <hr />
+      <mark>
+        <strong>UseId</strong>
+      </mark>
+      <UseIdExample />
       <hr />
     </div>
   );
