@@ -11,11 +11,13 @@ import UseIdExample from "./hooks/use_id";
 import TransitionExample from "./hooks/use_transition";
 import DefferedValueExample from "./hooks/use_deffered_value";
 import SyncExternalStoreExample from "./hooks/use_sync_external_store";
+import CallbackExample from "./hooks/use_callback";
+import MemoExample from "./hooks/use_memo";
 
 const App = () => {
   return (
     <div>
-      <mark>
+      {/* <mark>
         <strong>UseState</strong>
       </mark>
       <StateExample />
@@ -74,6 +76,16 @@ const App = () => {
         <strong>UseSyncExternalStore</strong>
       </mark>
       <SyncExternalStoreExample />
+      <hr />
+      <mark>
+        <strong>UseCallback</strong>
+      </mark>
+      <CallbackExample />
+      <hr /> */}
+      <mark>
+        <strong>UseMemo</strong>
+      </mark>
+      <MemoExample />
       <hr />
     </div>
   );
