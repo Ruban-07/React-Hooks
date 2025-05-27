@@ -17,7 +17,7 @@ import MemoExample from "./hooks/use_memo";
 const App = () => {
   return (
     <div>
-      {/* <mark>
+      <mark>
         <strong>UseState</strong>
       </mark>
       <StateExample />
@@ -78,14 +78,14 @@ const App = () => {
       <SyncExternalStoreExample />
       <hr />
       <mark>
-        <strong>UseCallback</strong>
-      </mark>
-      <CallbackExample />
-      <hr /> */}
-      <mark>
         <strong>UseMemo</strong>
       </mark>
       <MemoExample />
+      <hr />
+      <mark>
+        <strong>UseCallback</strong>
+      </mark>
+      <CallbackExample />
       <hr />
     </div>
   );
