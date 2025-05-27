@@ -10,6 +10,7 @@ import InsertionEffectExample from "./hooks/use_insertion_effect";
 import UseIdExample from "./hooks/use_id";
 import TransitionExample from "./hooks/use_transition";
 import DefferedValueExample from "./hooks/use_deffered_value";
+import SyncExternalStoreExample from "./hooks/use_sync_external_store";
 
 const App = () => {
   return (
@@ -68,6 +69,11 @@ const App = () => {
         <strong>UseDefferedValue</strong>
       </mark>
       <DefferedValueExample />
+      <hr />
+      <mark>
+        <strong>UseSyncExternalStore</strong>
+      </mark>
+      <SyncExternalStoreExample />
       <hr />
     </div>
   );
